@@ -17,6 +17,8 @@ body {
 
 .search {
    position: relative;
+   display: flex;
+   align-items: center;
    width: 320px;
 }
 
@@ -32,8 +34,8 @@ body {
 
 .mag {
    position: absolute;
-   right: 25px;
-   top: 8px;
+   right: 9%;
+   top: 9px;
    transition: all 0.4s linear;
 }
 
@@ -114,4 +116,31 @@ body {
 
 .github:hover {
    opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+   .image {
+      width: 100%;
+   }
+}
+
+@media (max-width: 605px) {
+   .header {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .search {
+      width: 80%;
+      margin-top: 20px;
+   }
+
+   .footer {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .rssshool {
+      margin-top: 20px;
+   }
 }
