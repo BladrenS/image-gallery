@@ -30,7 +30,7 @@ body {
    transition: all 0.4s linear;
 }
 
-.search img {
+.mag {
    position: absolute;
    right: 25px;
    top: 8px;
@@ -70,11 +70,29 @@ body {
    align-items: start;
 }
 
+.cross {
+   position: absolute;
+   left: 2px;
+   top: 12px;
+}
+
+.image {
+   width: 380px;
+   height: 210px;
+   margin-top: 15px;
+   background-position: center;
+   background-size: cover;
+   border-radius: 5px;
+}
+
 .footer {
    display: flex;
    justify-content: space-around;
    padding-bottom: 10px;
    color: #ffffff;
+   margin-top: 20px;
+   padding-top: 10px;
+   border-top: 5px solid rgb(128, 225, 255);
 }
 
 .rssshool {
