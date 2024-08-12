@@ -64,6 +64,7 @@ body {
    width: 80%;
    display: flex;
    justify-content: space-around;
+   flex-wrap: wrap;
    margin-top: 25px;
 }
 
@@ -146,6 +147,15 @@ body {
    .image {
       width: 100%;
    }
+}
+
+@media (max-width: 650px) {
+   .cat {
+      margin: 10px 20px;
+      width: 70px;
+      text-align: center;
+   }
+
 }
 
 @media (max-width: 605px) {
